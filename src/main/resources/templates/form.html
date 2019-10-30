@@ -31,7 +31,7 @@
                 var status = xhr.status;
                 if (status == 200) {
                     resolve(xhr.response);
-                    alter("success send sms")
+                    alert("success send sms")
                 } else {
                     reject(status);
                 }
